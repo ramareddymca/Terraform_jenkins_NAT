@@ -48,8 +48,8 @@ variable "pubsubnet_cidr_block" {
   description = "public subnet CIDR block"
 }
 
-variable "availability_zones" {
-  default     = ["eu-west-2a", "eu-west-2b"]
-  type        = list
-  description = "List of availability zones"
+variable "privatesubnet_cidr_block" {
+  default     = "10.0.1.0/24"
+  type        = string
+  description = "public subnet CIDR block"
 }
